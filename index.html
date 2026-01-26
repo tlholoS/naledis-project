@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Be My Valentine?</title>
+</head>
+<body>
+    <div class="valentines-card">
+        <header>
+            <h1>Wandile, will you be my Valentine?</h1>
+            <br>
+            <img id="valentine-gif" src="images/Valentines Day Love GIF by Boomerang Official.gif" alt="GIF" width="300" height="200">
+        </header>
+        <main>
+            <div>
+            <h3>You make ordinary days feel like Valentine's Day. <br> 
+            Can I make this one special with you?</h3>
+            </div>
+            <div class="buttons-wrapper">
+                <button class="yes-button"> Yes, Of Course!</button>
+                <button class="no-button">Sadly, No</button>
+            </div>
+        </main>
+        <br>
+        <footer>
+            By Yours Truly, Naledi
+        </footer>
+
+    </div>
+    <!-- Email compose modal -->
+    <div id="email-modal" class="modal" aria-hidden="true">
+        <div class="modal-content" role="dialog" aria-modal="true">
+            <button class="modal-close" aria-label="Close">×</button>
+            <h2>Compose Email</h2>
+            <div class="modal-row">
+                <label for="modal-to">To</label>
+                <input id="modal-to" type="email" />
+            </div>
+            <div class="modal-row">
+                <label for="modal-subject">Subject</label>
+                <input id="modal-subject" type="text" />
+            </div>
+            <div class="modal-row">
+                <label for="modal-body">Message</label>
+                <textarea id="modal-body" rows="6"></textarea>
+            </div>
+            <div class="modal-actions">
+                <button id="open-gmail" class="primary">Open in Gmail</button>
+                <button id="close-modal" class="secondary">Close</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
