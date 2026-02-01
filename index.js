@@ -92,9 +92,9 @@ document.addEventListener("DOMContentLoaded", () => {
     if (yesButton) {
         yesButton.addEventListener("click", () => {
             // Prefill modal fields
-            if (modalTo) modalTo.value = 'nalerags@gmail.com';
+            if (modalTo) modalTo.value = 'youremail@gmail.com';
             if (modalSubject) modalSubject.value = "Yes — I'd love to be your Valentine!";
-            if (modalBody) modalBody.value = "Hi Naledi,\n\nI'd love to be your Valentine. 💖\n\n— Wandile";
+            if (modalBody) modalBody.value = "Hi yourName,\n\nI'd love to be your Valentine. 💖\n\n— partner's name";
             openModal();
         });
     }
